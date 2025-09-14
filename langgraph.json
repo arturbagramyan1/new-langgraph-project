@@ -8,8 +8,8 @@
  "checkpointer":{
   "ttl":{
     "strategy":"delete",
-    "sweep_interval_minutes":1,
-    "default_ttl":1
+    "sweep_interval_minutes":10,
+    "default_ttl":10
   }
  }
 }
