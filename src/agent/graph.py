@@ -1,9 +1,7 @@
 from langgraph.prebuilt import create_react_agent
 from langchain_openai import ChatOpenAI
 from langchain_community.tools import TavilySearchResults
-import dotenv
 
-dotenv.load_dotenv()
 
 tools = [TavilySearchResults(max_results=10)]
 
